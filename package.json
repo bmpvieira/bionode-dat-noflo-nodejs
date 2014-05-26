@@ -1,21 +1,19 @@
 {
-  "name": "heroku-dat",
+  "name": "bionode-dat-noflo-nodejs",
   "version": "0.0.1",
-  "description": "Dat server template for Heroku",
-  "dependencies": {
-    "dat": "git://github.com/bmpvieira/dat.git#bmpvieira-dev"
-  },
-  "devDependencies": {},
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "postinstall": "dat init",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "dat",
-    "data",
-    "heroku",
-    "science"
-  ],
   "author": "Bruno Vieira <mail@bmpvieira.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bionode-ncbi": "git+https://2324bbbdbd7cde359d377142e268f94e6508831e:x-oauth-basic@github.com/bmpvieira/bionode-ncbi.git",
+    "dat": "^4.5.2",
+    "noflo": "^0.5.2",
+    "noflo-core": "^0.1.9",
+    "noflo-nodejs": "0.0.5"
+  }
 }
