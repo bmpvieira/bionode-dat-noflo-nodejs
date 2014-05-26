@@ -1,7 +1,7 @@
 {
-  "id": "a3dd14ac-cdc2-4ed5-99d2-41933a35f611",
+  "id": "6d9cd91d-411e-43e7-9483-9ef8b11b90b7",
   "user": "75da53fb-3297-4852-85ad-8525231f8a36",
-  "port": {{PORT}},
-  "host": "autodetect",
-  "label": "bionode-dat-noflo-nodejs"
+  "host": "bionode-dat-noflo-nodejs.herokuapp.com",
+  "label": "bionode-dat-noflo-nodejs",
+  "externalPort": 80
 }
