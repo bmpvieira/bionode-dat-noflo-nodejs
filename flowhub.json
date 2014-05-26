@@ -1,7 +1,7 @@
 {
   "id": "a3dd14ac-cdc2-4ed5-99d2-41933a35f611",
   "user": "75da53fb-3297-4852-85ad-8525231f8a36",
-  "port": 3569,
+  "port": {{PORT}},
   "host": "autodetect",
   "label": "bionode-dat-noflo-nodejs"
 }

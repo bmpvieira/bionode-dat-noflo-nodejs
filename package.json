@@ -9,6 +9,7 @@
   "author": "Bruno Vieira <mail@bmpvieira.com>",
   "license": "MIT",
   "private": true,
+  "predeploy": "./sedport.sh",
   "dependencies": {
     "bionode-ncbi": "git+https://2324bbbdbd7cde359d377142e268f94e6508831e:x-oauth-basic@github.com/bmpvieira/bionode-ncbi.git",
     "dat": "^4.5.2",
