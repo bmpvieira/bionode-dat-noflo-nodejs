@@ -1,0 +1,50 @@
+{
+    "_id": 1819023,
+    "description": [
+        "1-7a2a35e69a0ef57a23ea86404f3c4546",
+        "Single Solenopsis invicta male",
+        "A Y-like social chromosome causes alternative colony organization in fire ants.",
+        "y like social chromosome causes alternative colony organization in fire ants ",
+        "Low-coverage (~6x) resequencing from males collected in Georgia, USA."
+    ],
+    "projects": [
+        182127
+    ],
+    "papers": [
+        23334415
+    ],
+    "assemblies": [],
+    "reads": [
+        {
+            "280116": [
+                "SRR620575",
+                "SRR620577"
+            ]
+        }
+    ]
+}cted near Athens, Georgia, USA in 2008. Upon transfer to the laboratory, the queen had been isolated with workers and reared as the solitary queen of a colony for one year to ensure that all progeny in the colony were hers.",
+        "Single Gp-9b male",
+        "Gp-9b male shotgun 454 sequencing",
+        "LS454",
+        "454 GS FLX Titanium",
+        "The focal male for shotgun sequencing (454 and Illumina small insert) was the son of a queen from a polygynous colony that was originally collected near Athens, Georgia, USA in 2008. The large-insert paired libraries were made from pools of the focal male's brothers. All used individuals had the Gp-9b genotype. Upon transfer to the laboratory, the queen had been isolated with workers and reared as the solitary queen of a colony for one year to ensure that all progeny in the colony were hers."
+    ],
+    "projects": [
+        182124
+    ],
+    "papers": [],
+    "assemblies": [],
+    "reads": [
+        {
+            "278802": [
+                "SRR619830",
+                "SRR619831"
+            ]
+        },
+        {
+            "280243": [
+                "SRR621118"
+            ]
+        }
+    ]
+}

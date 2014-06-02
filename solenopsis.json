@@ -1,0 +1,486 @@
+{
+    "_id": 1819023,
+    "_rev": "1-7a2a35e69a0ef57a23ea86404f3c4546",
+    "uid": 1819023,
+    "title": "Generic sample from Solenopsis invicta",
+    "accession": "SAMN01819023",
+    "date": "2013/02/07",
+    "modificationdate": "2014/03/06",
+    "organization": "Lausanne Genomic Technologies Facility",
+    "taxonomy": 13686,
+    "sourcesample": "BioSample:SAMN01819023",
+    "sampledata": {
+        "root": {
+            "BioSample": [
+                {
+                    "$": {
+                        "access": "public",
+                        "submission_date": "2012-11-27T01:36:16.123",
+                        "last_update": "2014-03-06T16:45:50.756",
+                        "publication_date": "2013-02-07T23:47:15.420",
+                        "id": "1819023",
+                        "accession": "SAMN01819023"
+                    },
+                    "Ids": [
+                        {
+                            "Id": [
+                                {
+                                    "_": "f7b",
+                                    "$": {
+                                        "db_label": "Sample name"
+                                    }
+                                },
+                                {
+                                    "_": "SAMN01819023",
+                                    "$": {
+                                        "db": "BioSample",
+                                        "is_primary": "1"
+                                    }
+                                },
+                                {
+                                    "_": "SRS377418",
+                                    "$": {
+                                        "db": "SRA"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "Description": [
+                        {
+                            "Title": [
+                                "Generic sample from Solenopsis invicta"
+                            ],
+                            "Organism": [
+                                {
+                                    "$": {
+                                        "taxonomy_id": "13686",
+                                        "taxonomy_name": "Solenopsis invicta"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "Owner": [
+                        {
+                            "Name": [
+                                {
+                                    "_": "Lausanne Genomic Technologies Facility",
+                                    "$": {
+                                        "url": "http://www.unil.ch/dafl"
+                                    }
+                                }
+                            ],
+                            "Contacts": [
+                                {
+                                    "Contact": [
+                                        {
+                                            "$": {
+                                                "email": "y.wurm@qmul.ac.uk"
+                                            },
+                                            "Name": [
+                                                {
+                                                    "First": [
+                                                        "Yannick"
+                                                    ],
+                                                    "Last": [
+                                                        "Wurm"
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "Models": [
+                        {
+                            "Model": [
+                                "Generic"
+                            ]
+                        }
+                    ],
+                    "Package": [
+                        "Generic"
+                    ],
+                    "Attributes": [
+                        ""
+                    ],
+                    "Links": [
+                        {
+                            "Link": [
+                                {
+                                    "_": "182127",
+                                    "$": {
+                                        "type": "entrez",
+                                        "target": "bioproject",
+                                        "label": "PRJNA182127"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "Status": [
+                        {
+                            "$": {
+                                "status": "live",
+                                "when": "2013-02-07T23:47:15.420"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "reads": [
+        {
+            "_id": 280116,
+            "_rev": "1-4b568be8bf0e9f3d362758f2a79fd7bd",
+            "uid": 280116,
+            "expxml": {
+                "root": {
+                    "Summary": [
+                        {
+                            "Title": [
+                                "Single Solenopsis invicta male"
+                            ],
+                            "Platform": [
+                                {
+                                    "_": "ILLUMINA",
+                                    "$": {
+                                        "instrument_model": "Illumina HiSeq 2000"
+                                    }
+                                }
+                            ],
+                            "Statistics": [
+                                {
+                                    "$": {
+                                        "total_runs": "1",
+                                        "total_spots": "23699662",
+                                        "total_bases": "4787331724",
+                                        "total_size": "3194772398",
+                                        "load_done": "true",
+                                        "cluster_name": "public"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "Submitter": [
+                        {
+                            "$": {
+                                "acc": "SRA061976",
+                                "center_name": "Queen Mary University of London",
+                                "contact_name": "Yannick Wurm",
+                                "lab_name": "Wurm lab"
+                            }
+                        }
+                    ],
+                    "Experiment": [
+                        {
+                            "$": {
+                                "acc": "SRX206707",
+                                "ver": "1",
+                                "status": "public",
+                                "name": "Single Solenopsis invicta male"
+                            }
+                        }
+                    ],
+                    "Study": [
+                        {
+                            "$": {
+                                "acc": "SRP017317",
+                                "name": "Solenopsis invicta Variation"
+                            }
+                        }
+                    ],
+                    "Organism": [
+                        {
+                            "$": {
+                                "taxid": "13686",
+                                "ScientificName": "Solenopsis invicta"
+                            }
+                        }
+                    ],
+                    "Sample": [
+                        {
+                            "$": {
+                                "acc": "SRS377418",
+                                "name": ""
+                            }
+                        }
+                    ],
+                    "Instrument": [
+                        {
+                            "$": {
+                                "ILLUMINA": "Illumina HiSeq 2000"
+                            }
+                        }
+                    ],
+                    "Library_descriptor": [
+                        {
+                            "LIBRARY_NAME": [
+                                ""
+                            ],
+                            "LIBRARY_STRATEGY": [
+                                "WGS"
+                            ],
+                            "LIBRARY_SOURCE": [
+                                "GENOMIC"
+                            ],
+                            "LIBRARY_SELECTION": [
+                                "RANDOM"
+                            ],
+                            "LIBRARY_LAYOUT": [
+                                {
+                                    "PAIRED": [
+                                        {
+                                            "$": {
+                                                "NOMINAL_LENGTH": "450"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "Biosample": [
+                        {
+                            "$": {
+                                "id": "1819023",
+                                "acc": "SAMN01819023",
+                                "sample_id": "441205",
+                                "sample_acc": "SRS377418"
+                            }
+                        }
+                    ],
+                    "Bioproject": [
+                        "SRP017317"
+                    ]
+                }
+            },
+            "runs": {
+                "root": {
+                    "Run": [
+                        {
+                            "$": {
+                                "acc": "SRR620575",
+                                "total_spots": "",
+                                "total_bases": "",
+                                "load_done": "",
+                                "is_public": "",
+                                "cluster_name": ""
+                            }
+                        },
+                        {
+                            "$": {
+                                "acc": "SRR620577",
+                                "total_spots": "23699662",
+                                "total_bases": "4787331724",
+                                "load_done": "true",
+                                "is_public": "true",
+                                "cluster_name": "public",
+                                "static_data_available": "true"
+                            }
+                        }
+                    ]
+                }
+            },
+            "extlinks": "    ",
+            "createdate": "2013/02/07",
+            "updatedate": "2012/11/28"
+        }
+    ],
+    "assemblies": [],
+    "papers": [
+        {
+            "_id": 23334415,
+            "_rev": "1-fcd014be54ddf080f9a25738849e6284",
+            "uid": 23334415,
+            "pubdate": "2013 Jan 31",
+            "epubdate": "2013 Jan 16",
+            "source": "Nature",
+            "authors": [
+                {
+                    "name": "Wang J",
+                    "authtype": "Author",
+                    "clusterid": ""
+                },
+                {
+                    "name": "Wurm Y",
+                    "authtype": "Author",
+                    "clusterid": ""
+                },
+                {
+                    "name": "Nipitwattanaphon M",
+                    "authtype": "Author",
+                    "clusterid": ""
+                },
+                {
+                    "name": "Riba-Grognuz O",
+                    "authtype": "Author",
+                    "clusterid": ""
+                },
+                {
+                    "name": "Huang YC",
+                    "authtype": "Author",
+                    "clusterid": ""
+                },
+                {
+                    "name": "Shoemaker D",
+                    "authtype": "Author",
+                    "clusterid": ""
+                },
+                {
+                    "name": "Keller L",
+                    "authtype": "Author",
+                    "clusterid": ""
+                }
+            ],
+            "lastauthor": "Keller L",
+            "title": "A Y-like social chromosome causes alternative colony organization in fire ants.",
+            "sorttitle": "y like social chromosome causes alternative colony organization in fire ants ",
+            "volume": 493,
+            "issue": 7434,
+            "pages": "664-8",
+            "lang": [
+                "eng"
+            ],
+            "nlmuniqueid": "0410462",
+            "issn": "0028-0836",
+            "essn": "1476-4687",
+            "pubtype": [
+                "Journal Article"
+            ],
+            "recordstatus": "PubMed - indexed for MEDLINE",
+            "pubstatus": 256,
+            "articleids": [
+                {
+                    "idtype": "pii",
+                    "idtypen": 4,
+                    "value": "nature11832"
+                },
+                {
+                    "idtype": "doi",
+                    "idtypen": 3,
+                    "value": "10.1038/nature11832"
+                },
+                {
+                    "idtype": "pubmed",
+                    "idtypen": 1,
+                    "value": "23334415"
+                },
+                {
+                    "idtype": "eid",
+                    "idtypen": 8,
+                    "value": "23334415"
+                },
+                {
+                    "idtype": "rid",
+                    "idtypen": 8,
+                    "value": "23334415"
+                }
+            ],
+            "history": [
+                {
+                    "pubstatus": "received",
+                    "date": "2012/06/14 00:00"
+                },
+                {
+                    "pubstatus": "accepted",
+                    "date": "2012/12/10 00:00"
+                },
+                {
+                    "pubstatus": "aheadofprint",
+                    "date": "2013/01/16 00:00"
+                },
+                {
+                    "pubstatus": "entrez",
+                    "date": "2013/01/22 06:00"
+                },
+                {
+                    "pubstatus": "pubmed",
+                    "date": "2013/01/22 06:00"
+                },
+                {
+                    "pubstatus": "medline",
+                    "date": "2013/02/14 06:00"
+                }
+            ],
+            "references": [
+                {
+                    "refsource": "Nat Rev Genet. 2013 Mar;14(3):152-3",
+                    "reftype": "Comment in",
+                    "pmid": 23358381,
+                    "note": ""
+                },
+                {
+                    "refsource": "Nature. 2013 Jan 31;493(7434):612-3",
+                    "reftype": "Comment in",
+                    "pmid": 23334422,
+                    "note": ""
+                }
+            ],
+            "attributes": [
+                "Has Abstract"
+            ],
+            "pmcrefcount": 3,
+            "fulljournalname": "Nature",
+            "elocationid": "doi: 10.1038/nature11832",
+            "viewcount": 451,
+            "doctype": "citation",
+            "srccontriblist": [],
+            "doccontriblist": [],
+            "sortpubdate": "2013/01/31 00:00",
+            "sortfirstauthor": "Wang J"
+        }
+    ],
+    "projects": [
+        {
+            "_id": 182127,
+            "_rev": "1-468c8f1ff1b6b4e319100b739b4575b4",
+            "uid": 182127,
+            "taxid": 13686,
+            "project_id": 182127,
+            "project_acc": "PRJNA182127",
+            "project_type": "Primary submission",
+            "project_data_type": "Variation",
+            "project_type_order": 71661,
+            "project_target_scope": "Multiisolate",
+            "project_target_material": "Genome",
+            "project_target_capture": "Whole",
+            "project_methodtype": "Sequencing",
+            "project_objectives_list": [
+                {
+                    "project_objectivestype": "Raw Sequence Reads",
+                    "project_objectives": ""
+                },
+                {
+                    "project_objectivestype": "Variation",
+                    "project_objectives": ""
+                }
+            ],
+            "registration_date": "2012/11/26 00:00",
+            "project_name": "Solenopsis invicta",
+            "project_title": "Solenopsis invicta Variation",
+            "project_description": "Low-coverage (~6x) resequencing from males collected in Georgia, USA.",
+            "relevance_evolution": "yes",
+            "organism_name": "Solenopsis invicta",
+            "sequencing_status": "SRA/Trace",
+            "submitter_organization": "Queen Mary University of London",
+            "submitter_organization_list": [
+                "Queen Mary University of London",
+                "Lausanne Genomic Technologies Facility"
+            ],
+            "supergroup": "Eukaryotes"
+        }
+    ],
+    "relevant": [
+        "1-7a2a35e69a0ef57a23ea86404f3c4546",
+        "Single Solenopsis invicta male",
+        "A Y-like social chromosome causes alternative colony organization in fire ants.",
+        "y like social chromosome causes alternative colony organization in fire ants ",
+        "Low-coverage (~6x) resequencing from males collected in Georgia, USA."
+    ]
+}
